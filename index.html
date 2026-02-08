@@ -12,36 +12,46 @@
   <body>
     <header class="header">
       <nav>
-        <ul class="header__nav-list">
-          <li class="nav-list-item"><a href="#cover">главная</a></li>
-          <li class="nav-list-item"><a href="#lots">посмотреть лоты</a></li>
-          <li class="nav-list-item"><a href="#about">об аукционе</a></li>
+        <ul class="header-nav-list">
+          <li>
+            <a class="link" href="#cover">главная</a>
+          </li>
+          <li>
+            <a class="link" href="#lots">посмотреть лоты</a>
+          </li>
+          <li>
+            <a class="link" href="#about">об аукционе</a>
+          </li>
         </ul>
       </nav>
-      <a href="#0"><img src="./images/logo-black.svg" alt="логотип"></a>
-      <div class="header-contacts">
+      <a href="#0">
+        <img class="header-logo" src="./images/logo-black.svg" alt="логотип">
+      </a>
+      <div class="contacts">
         <a href="tel:+99995555555">+9 999 555 5555</a>
         <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <address>
-          <span>наб. Принсенграхт 263- </span>
-          <span>265, Амстердам</span></address>
+          наб. Принсенграхт 263- <br>
+          265, Амстердам
+        </address>
       </div>      
     </header>
     <main class="main">
       <section class="cover" id="cover">
-        <h1><span>Оно</span> 
-          <span>тебе</span> 
-          <span>надо</span>
+        <h1 class="cover-header">
+          <span class="cover-header-line">Оно</span> 
+          <span class="cover-header-line cover-header-line-center">тебе</span> 
+          <span class="cover-header-line cover-header-line-end">надо</span>
         </h1>
         <div class="description">
-          <p>Аукцион вещей, в которые никто не верил</p>
-          <button class="button-bet">Сделать ставку</button>
+          <p class="description-text">Аукцион вещей, в которые никто не верил</p>
+          <button class="description-button">Сделать ставку</button>
         </div>
       </section>
       <section class="lots" id="#lots">
-        <h2>Лоты</h2>
-        <ul class="lot-cards-list">
-          <li class="lot-cards-list-item">
+        <h2 class="lots-header">Лоты</h2>
+        <ul class="lots-card-list">
+          <li class="lots-card-list-item cover-film">
             <a href="#0">
               <article>
                 <h3>Фильм режиссёра, который бросил киношколу</h3>
@@ -49,7 +59,7 @@
               </article>
             </a>
           </li>
-          <li class="lot-cards-list-item">
+          <li class="lots-card-list-item cover-book">
             <a href="#0">
               <article>
                 <h3>Книга, где описан один скучный день из жизни рекламного агента</h3>
@@ -57,7 +67,7 @@
               </article>
             </a>
           </li>
-          <li class="lot-cards-list-item">
+          <li class="lots-card-list-item cover-picture">
             <a href="#0">
               <article>
                 <h3>Картина, которую повторит даже 5-летний сын маминой подруги</h3>
@@ -66,11 +76,11 @@
             </a>
           </li>
         </ul>
-        <a href="#0">посмотреть больше</a>
+        <a class="link" href="#0">посмотреть больше</a>
       </section>
       <section class="about" id="about">
-        <div class="about-logo-column">
-          <img src="./images/logo-white.svg" alt="логотип">
+        <div class="about-logo-background">
+          <img class="about-logo" src="./images/logo-white.svg" alt="логотип">
         </div>
         <div class="about-text-column">
           <h2>Об аукционе</h2>
@@ -83,24 +93,30 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="footer-contacts">
+      <div class="contacts">
         <a href="tel:+9 999 555 5555">+9 999 555 5555</a>
         <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        <address>наб. Принсенграхт 263-265, Амстердам</address>
+        <address>наб. Принсенграхт 263-265,<br>Амстердам</address>
       </div>      
-      <nav class="nav-list-item">
-        <ul>
-          <li><a href="#cover">главная</a></li>
-          <li><a href="#lots">посмотреть лоты</a></li>
-          <li><a href="#about">об аукционе</a></li>
+      <nav>
+        <ul class="footer-nav-list">
+          <li>
+            <a class="link" href="#cover">главная</a>
+          </li>
+          <li>
+            <a class="link" href="#lots">посмотреть лоты</a>
+          </li>
+          <li>
+            <a class="link" href="#about">об аукционе</a>
+          </li>
         </ul>
       </nav>
       <div class="socials">
-        <ul>
-          <li><a href="https://youtube.com"><img src="./images/yt.svg" alt="youtube логотип"></a></li>
-          <li><a href="https://vk.com"><img src="./images/vk.svg" alt="vkontakte логотип"></a></li>
-          <li><a href="https://pinterest.com"><img src="./images/pinterest.svg" alt="pinterest логотип"></a></li>
-        </ul>
+        <a href="https://youtube.com">
+          <img class="socials-logo" src="./images/yt.svg" alt="youtube логотип">
+        </a>
+        <a href="https://vk.com"><img class="socials-logo" src="./images/vk.svg" alt="vkontakte логотип"></a>
+        <a href="https://pinterest.com"><img class="socials-logo" src="./images/pinterest.svg" alt="pinterest логотип"></a>        
       </div>      
     </footer>
   </body>

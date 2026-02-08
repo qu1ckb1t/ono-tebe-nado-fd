@@ -1,29 +1,195 @@
 /* место для вашего кода */
 
 .header {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 293px;
+  padding: 50px;
+}
 
+.header-nav-list {
+  display: flex;
+  justify-self: start;
+  justify-content: space-around;
+  list-style-type: circle;
+  min-width: 392px;
+  border: 1px solid red;
+}
+
+.header-logo {
+  border: 1px solid red;
+  display: block;
+  width: 148px;
+  height: 105px;
+}
+
+.contacts {  
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
 }
 
 .cover {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 757px;
+  padding: 50px;
+  background-image: url("../images/cover.jpg");
+  background-size: cover;
+}
 
+.cover-header {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 385px;
+}
+
+.cover-header-line {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+}
+
+.cover-header-line-center {
+  justify-content: center;
+}
+
+.cover-header-line-end {
+  justify-content: end;
 }
 
 .description {
-
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
 }
 
-.button-bet {
-  
+.description-text {
+  display: inline-block;
+  border: 1px solid red;
+}
+
+.description-button {
+  display: inline-block;
+  border: 1px solid red;
 }
 
 .lots {
+  border: 1px solid red;
+  height: 723px;
+  margin: 180px 24px 0 24px;
+}
 
+.lots-card-list {
+  display: flex;
+  border: 1px solid red;
+  margin:27px 0 30px 0;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.lots-card-list-item {
+  border: 1px solid red;
+  min-width: 334px;
+  min-height: 596px;
+  width: 334px;
+  height: 596px;
+  padding: 48px 40px;
+}
+
+.lots-card-list-item article {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.cover-film {
+  background-image: url("../images/card-lot-01.jpg"); 
+  background-size: cover;
+}
+
+.cover-book {
+  background-image: url("../images/card-lot-02.jpg"); 
+  background-size: cover;
+}
+
+.cover-picture {
+  background-image: url("../images/card-lot-03.jpg");
+  background-size: cover;
 }
 
 .about {
+  display: flex;
+  border: 1px solid red;
+  margin: 120px auto 0;
+  width: 1059px;
+  padding: 35px 0 0 47px;
+}
 
+.about-logo-background {
+  border: 1px solid red;
+  display: flex;
+  min-width: 240px;
+  min-height: 240px;
+  width: 240px;
+  height: 240px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.about-logo {
+  display: block;
+  width: 148px;
+  height: 114px;
+  margin: auto;
+}
+
+.about-text-column {
+  border: 1px solid red;
+  margin: 98px 0 0 72px;
 }
 
 .footer {
+  display: flex;
+  border: 1px solid red;
+  margin: 180px 0 0 0;
+  padding: 0 50px;
+  min-height: 180px;  
+  justify-content: space-between;
+}
 
+.footer-nav-list {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.socials {
+  display: flex;
+  width: 240px;
+  justify-content: space-between;
+}
+
+.socials-logo {
+  width: 48px;
+  height: 48px;
+}
+
+.link:hover {
+  text-decoration: none;
 }
