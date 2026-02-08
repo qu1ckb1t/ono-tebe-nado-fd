@@ -68,47 +68,95 @@
   flex-direction: column;
   justify-content: space-between;
   min-height: 757px;
-  padding: 50px;
+  padding: 165px 50px 50px;
   background-image: url("../images/cover.jpg");
   background-size: cover;
+  background-position: center bottom;
+  position: relative;
 }
 
-.cover-header {
+.overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.cover__title {
   border: 1px solid red;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  min-height: 385px;
+  justify-content: stretch;
+  z-index: 2;
+  font-family: Raleway;
+  font-size: 100px;
+  font-weight: 700;
+  letter-spacing: 30px;  
+  color: #fff;
+  text-transform: uppercase;
+  padding: 0;
 }
 
-.cover-header-line {
+.aligned-text {
+  border: 1px solid red;
+}
+
+.aligned-text_left {
+  display: block;
+  text-align: left;
+  line-height: 114px;
+}
+
+.aligned-text_center {
+  border: 1px solid red;
+  display: block;
+  text-align: center;
+  line-height: 143px;
+}
+
+.aligned-text_right {
+  border: 1px solid red;
+  display: block;
+  text-align: right;
+  line-height: 130px;
+}
+
+.cover__description {
   border: 1px solid red;
   display: flex;
-  flex-direction: row;
-}
-
-.cover-header-line-center {
-  justify-content: center;
-}
-
-.cover-header-line-end {
-  justify-content: end;
-}
-
-.description {
-  border: 1px solid red;
-  display: flex;
+  align-content: center;
   justify-content: space-between;
+  z-index: 2;
 }
 
-.description-text {
-  display: inline-block;
+.cover__description-text {
+  display: flex;
+  align-items: center;
   border: 1px solid red;
+  word-spacing: 18px;
+  text-transform: uppercase;
+  color:#fff;
+  font-family: Raleway;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
 }
 
-.description-button {
-  display: inline-block;
+.bet-button {
   border: 1px solid red;
+  display: block;
+  border: 1px solid white;
+  background: transparent;
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  padding: 11px 31px;
 }
 
 .lots {
