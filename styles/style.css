@@ -1,7 +1,6 @@
 /* место для вашего кода */
 
 .header {
-  border: 1px solid red;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
@@ -13,9 +12,7 @@
   justify-self: start;
   justify-content: space-around;
   gap: 32px;
-/*  list-style-type: circle; */
-/*  min-width: 392px; */
-  border: 1px solid red;
+
   font-family: Raleway;
   font-size: 18px;
 }
@@ -37,10 +34,9 @@
 }
 
 .header__logo {
-  border: 1px solid red;
   display: block;
   width: 148px;
-  height: 105px;  
+  height: 105px;
 }
 
 .header__address {
@@ -61,9 +57,7 @@
   font-size: 18px;
 }
 
-
 .cover {
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -86,7 +80,6 @@
 }
 
 .cover__title {
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   justify-content: stretch;
@@ -94,14 +87,10 @@
   font-family: Raleway;
   font-size: 100px;
   font-weight: 700;
-  letter-spacing: 30px;  
+  letter-spacing: 30px;
   color: #fff;
   text-transform: uppercase;
   padding: 0;
-}
-
-.aligned-text {
-  border: 1px solid red;
 }
 
 .aligned-text_left {
@@ -111,21 +100,18 @@
 }
 
 .aligned-text_center {
-  border: 1px solid red;
   display: block;
   text-align: center;
   line-height: 143px;
 }
 
 .aligned-text_right {
-  border: 1px solid red;
   display: block;
   text-align: right;
   line-height: 130px;
 }
 
 .cover__description {
-  border: 1px solid red;
   display: flex;
   align-content: center;
   justify-content: space-between;
@@ -135,10 +121,9 @@
 .cover__description-text {
   display: flex;
   align-items: center;
-  border: 1px solid red;
   word-spacing: 18px;
   text-transform: uppercase;
-  color:#fff;
+  color: #fff;
   font-family: Raleway;
   font-weight: 400;
   font-style: normal;
@@ -146,7 +131,6 @@
 }
 
 .bet-button {
-  border: 1px solid red;
   display: block;
   border: 1px solid white;
   background: transparent;
@@ -160,7 +144,6 @@
 }
 
 .lots {
-  border: 1px solid red;
   margin: 180px 24px 0 24px;
 }
 
@@ -176,7 +159,7 @@
 .lots__card-list {
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid red;
+
   margin: 27px 0 30px 0;
   list-style-type: none;
   gap: 23px;
@@ -184,7 +167,6 @@
 }
 
 .lots__card-list-item {
-  border: 1px solid red;
   width: 334px;
   min-height: 596px;
 }
@@ -196,7 +178,6 @@
 }
 
 .card {
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -212,7 +193,7 @@
   text-transform: uppercase;
   text-decoration: underline;
   text-underline-offset: 3px;
-  color:#fff;
+  color: #fff;
   z-index: 2;
 }
 
@@ -220,7 +201,7 @@
   font-family: Raleway;
   font-weight: 400;
   font-size: 20px;
-  color:#fff;
+  color: #fff;
   z-index: 2;
 }
 
@@ -234,39 +215,32 @@
 }
 
 .card_type_film {
-  background-image: url("../images/card-lot-01.jpg"); 
+  background-image: url("../images/card-lot-01.jpg");
   background-size: cover;
-  background-position: center
+  background-position: center;
 }
 
 .card_type_book {
-  background-image: url("../images/card-lot-02.jpg"); 
+  background-image: url("../images/card-lot-02.jpg");
   background-size: cover;
-  background-position: center
+  background-position: center;
 }
 
 .card_type_picture {
   background-image: url("../images/card-lot-03.jpg");
   background-size: cover;
-  background-position: center
+  background-position: center;
 }
 
 .about {
   display: grid;
   grid-template-columns: 334px 1fr;
   column-gap: 24px;
-  border: 1px solid red;
   margin: 120px auto 0;
   width: 1052px;
-/*  padding: 35px 0 0 47px; */
-}
-
-.about__column {
-  border: 1px solid red;
 }
 
 .about__logo {
-  border: 1px solid red;
   display: flex;
   justify-self: center;
   align-items: center;
@@ -302,7 +276,6 @@
 }
 
 .footer {
-  border: 1px solid red;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin: 180px 0 0 0;
@@ -314,7 +287,6 @@
 }
 
 .footer__menu-list {
-  border: 1px solid red;
   display: flex;
   justify-self: center;
   flex-direction: column;
@@ -335,20 +307,13 @@
 }
 
 .footer__social-list {
-  border: 1px solid red;
   display: flex;
   justify-self: end;
   align-self: start;
   column-gap: 48px;
 }
 
-.footer__social-link {
-  border: 1px solid red;
-  /* display: block; */
-}
-
 .footer__social-icon {
-  border: 1px solid red;
   width: 48px;
   height: 48px;
 }
