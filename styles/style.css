@@ -42,12 +42,8 @@
 }
 
 .header__address {
-  width: 240px;
-  justify-self: end;
-}
-
-.header__address {
-  text-underline-offset: 4px;
+  max-width: 240px;
+  justify-self: end;  
 }
 
 .address {
@@ -58,6 +54,7 @@
   font-style: normal;
   font-size: 18px;
   line-height: 24px;
+  text-underline-offset: 4px;
 }
 
 .cover {
@@ -208,7 +205,7 @@
 
 .lots__look-more-link {
   font-family: Raleway;
-  font-size: 400px;
+  font-weight: 400;
   font-size: 20px;
   line-height: 23px;
   margin-left: 40px;
@@ -281,10 +278,6 @@
   grid-template-columns: 1fr 1fr 1fr;
   margin: 180px 0 0 0;
   padding: 0 50px 80px 50px;
-}
-
-.footer address a {
-  text-underline-offset: 4px;
 }
 
 .footer__menu-list {
